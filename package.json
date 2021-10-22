@@ -2,7 +2,7 @@
     "name": "orderreceiverapi",
     "version": "1.0.0",
     "description": "OrderReceiver Node API",
-    "main": "app.js",
+    "main": "./src/app.js",
     "scripts": {
         "start": "nodemon app.js"
     },
