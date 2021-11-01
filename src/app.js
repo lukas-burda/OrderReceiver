@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.json());
 app.use(routes);
 
-const port = 5531;
+const port = 3000;
 const host = '0.0.0.0';
 
 app.listen(port, () => {

@@ -6,6 +6,9 @@ module.exports = routes
 let runtimeDatabase = [
     {Id:"1",Status: "Waiting-to-be-choosed", SubTotalAmount:"3990", Items:[{Name:"Prensado", Amount:"3990", Quantity:"1"}]}
 ]
+routes .get('/', (req, res)=> {
+    res.send('Welcome to our docker OrderReceiver API');
+})
 
 routes.get('/orders/all',(req, res) => {
     if(runtimeDatabase.length==0){
